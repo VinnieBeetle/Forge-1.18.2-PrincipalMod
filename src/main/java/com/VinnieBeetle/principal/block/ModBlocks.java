@@ -31,6 +31,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
 
+    public static final RegistryObject<Block> Moissanite_Ore = registerBlock("moissanite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+
     //this is registering the block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

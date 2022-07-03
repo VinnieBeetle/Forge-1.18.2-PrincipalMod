@@ -3,5 +3,6 @@
   "item.principal.dagger": "Dagger",
   "item.principal.moissanite": "Moissanite",
 
-  "block.principal.moissanite_block": "Moissanite Block"
+  "block.principal.moissanite_block": "Moissanite Block",
+  "block.principal.moissanite_ore": "Moissanite Ore"
 }
