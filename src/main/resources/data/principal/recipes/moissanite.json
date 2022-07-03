@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "principal:moissanite_block"
+    }
+  ],
+  "result": {
+    "item": "principal:moissanite",
+    "count": 9
+  }
+}

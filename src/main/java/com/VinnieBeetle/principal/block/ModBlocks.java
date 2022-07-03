@@ -1,6 +1,7 @@
 package com.VinnieBeetle.principal.block;
 
 import com.VinnieBeetle.principal.PrincipalMod;
+import com.VinnieBeetle.principal.item.ModCreativeModeTab;
 import com.VinnieBeetle.principal.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -29,11 +30,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> Moissanite_Block = registerBlock("moissanite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.Principal_Tab);
 
     public static final RegistryObject<Block> Moissanite_Ore = registerBlock("moissanite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.Principal_Tab);
 
     //this is registering the block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

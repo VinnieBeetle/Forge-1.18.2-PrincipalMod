@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "principal:moissanite"
+    }
+  },
+  "result": {
+    "item": "principal:moissanite_block"
+  }
+}

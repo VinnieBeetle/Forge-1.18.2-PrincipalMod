@@ -1,7 +1,6 @@
 package com.VinnieBeetle.principal.item;
 
 import com.VinnieBeetle.principal.PrincipalMod;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,10 +20,10 @@ public class ModItems {
     //Item
     //(bus) is the name of item, no upper-cases or spaces and unique
     public static final RegistryObject<Item> Dagger = ITEMS.register("dagger",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Principal_Tab)));
 
     public static final RegistryObject<Item> Moissanite = ITEMS.register("moissanite",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Principal_Tab)));
 
 
     public static void register(IEventBus eventBus){
