@@ -1,5 +1,6 @@
 package com.VinnieBeetle.principal;
 
+import com.VinnieBeetle.principal.block.ModBlocks;
 import com.VinnieBeetle.principal.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -35,6 +36,8 @@ public class PrincipalMod
         //registering mod items
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in

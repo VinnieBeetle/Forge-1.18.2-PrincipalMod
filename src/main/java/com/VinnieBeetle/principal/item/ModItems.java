@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> Dagger = ITEMS.register("dagger",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> Moissanite = ITEMS.register("moissanite",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

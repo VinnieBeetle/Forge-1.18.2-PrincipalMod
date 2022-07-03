@@ -1,4 +1,7 @@
 
 {
-  "item.principal.dagger": "Dagger"
+  "item.principal.dagger": "Dagger",
+  "item.principal.moissanite": "Moissanite",
+
+  "block.principal.moissanite_block": "Moissanite Block"
 }
