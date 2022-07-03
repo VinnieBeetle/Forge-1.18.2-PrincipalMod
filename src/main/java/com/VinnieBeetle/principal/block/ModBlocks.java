@@ -30,7 +30,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> Moissanite_Block = registerBlock("moissanite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.Principal_Tab);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Principal_Tab);
 
     public static final RegistryObject<Block> Moissanite_Ore = registerBlock("moissanite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
